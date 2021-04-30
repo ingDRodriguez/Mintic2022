@@ -1,0 +1,16 @@
+nombre_estudiante = input('¿Cuál es tu nombre?')
+apellido_estudiante = input('¿y tu apellido?')
+año_nacimiento = int(input('¿Cuál es tu año de nacimiento?'))
+edad = 2021 - año_nacimiento
+generacion = str('none')
+
+if edad < 21:
+  generacion = 'centenial'
+elif edad < 31:
+     generacion = 'millenial'
+elif edad  < 41:
+          generacion = 'de la generación x'
+elif edad < 51:
+                generacion = 'Boomer'
+
+print('Hola Misión TIC 2022, soy %s %s, una persona %s que quiere generar valor con el desarrollo de software colaborativo, ¡hagamos una apuesta por la innovación abierta!' % (nombre_estudiante, apellido_estudiante, generacion))
