@@ -1,3 +1,4 @@
+print('Bienvenido al progama Hola Mundo, lo escribe D. Rodríguez para el Reto Mintic 2022')
 nombre_estudiante = input('¿Cuál es tu nombre?')
 apellido_estudiante = input('¿y tu apellido?')
 año_nacimiento = int(input('¿Cuál es tu año de nacimiento?'))
